@@ -1,32 +1,38 @@
-# OpenClaw
+# Jeeves Dashboard 🛠️
 
-A SaaS platform built with Next.js for managing OpenClaw instances.
+A comprehensive project and task tracking dashboard built with Next.js.
+
+## Features
+
+- 📊 **Project Overview** - View all projects and their completion status
+- ✅ **Task Tracking** - See completed, in-progress, and pending tasks
+- 📈 **Progress Visualization** - Track completion percentage for each project
+- 🎯 **Status Categorization** - Organize projects by status
+- 📱 **Responsive Design** - Works on all screen sizes
+
+## Project Categories
+
+- **In Progress**: Active projects currently being worked on
+- **Completed**: Finished projects with all tasks done
+- **Pending**: Projects yet to start
 
 ## Getting Started
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-
-### Installation
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Development
-
-Run the development server:
+### Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Build
-
-Build for production:
+### Build for Production
 
 ```bash
 npm run build
@@ -37,11 +43,34 @@ npm start
 
 ```
 app/
-├── layout.tsx     # Root layout
-└── page.tsx       # Home page
+├── layout.tsx     # Root layout with styling
+└── page.tsx       # Dashboard component
+data/
+└── projects.json  # Project and task data
+```
+
+## Adding/Updating Projects
+
+Edit `data/projects.json` to add or update projects:
+
+```json
+{
+  "id": 1,
+  "name": "Project Name",
+  "description": "Project description",
+  "status": "completed|in-progress|pending",
+  "completedAt": "2026-02-10",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task title",
+      "status": "completed|pending|in-progress"
+    }
+  ]
+}
 ```
 
 ## Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)
-- [OpenClaw Documentation](https://docs.openclaw.ai)
+- [React Documentation](https://react.dev)

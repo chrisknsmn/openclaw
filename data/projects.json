@@ -1,0 +1,247 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "GitHub Auto-Posting Setup",
+      "description": "Configure portfolio repo for daily green square commits",
+      "status": "completed",
+      "completedAt": "2026-02-07",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Configure GitHub authentication with PAT",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Set up cron jobs for twice-daily commits",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Backfill commits for all 2026 dates",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Test automated commit pipeline",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Verify green squares on GitHub profile",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "OpenClaw SaaS Wrapper",
+      "description": "Build a SaaS platform wrapper around OpenClaw",
+      "status": "in-progress",
+      "completedAt": null,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Create GitHub repository",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Initialize Next.js project structure",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Design MVP architecture",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Build authentication system",
+          "status": "pending"
+        },
+        {
+          "id": 5,
+          "title": "Implement tenant provisioning",
+          "status": "pending"
+        },
+        {
+          "id": 6,
+          "title": "Set up billing integration",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "CMS Research & Recommendations",
+      "description": "Evaluate CMS options for Next.js client projects",
+      "status": "completed",
+      "completedAt": "2026-02-08",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Research Strapi headless CMS",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Evaluate Sanity CMS for ease of use",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Test Markdown + TinaCMS approach",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Compare JSON-only lightweight option",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Provide recommendations with pros/cons",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Digital Audio Product Architecture",
+      "description": "Design patterns for music production software",
+      "status": "completed",
+      "completedAt": "2026-02-08",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Define DSP core architecture principles",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Design plugin shell layer (JUCE/VST3)",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Plan UI/parameter management system",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Recommend tech stack (C++ + JUCE)",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Create example architecture diagram",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Environment Permissions Setup",
+      "description": "Configure OpenClaw VM for full GitHub access and Git operations",
+      "status": "completed",
+      "completedAt": "2026-02-09",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Configure Git identity and credentials",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Set up GitHub token in environment",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Configure Git credential helper",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Test repo creation with curl + API",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Enable full GitHub automation",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Project Dashboard Creation",
+      "description": "Build dashboards to track projects and tasks",
+      "status": "in-progress",
+      "completedAt": null,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Create cowboy dashboard repository",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Build Next.js dashboard with task tracking",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Add progress visualization and stats",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Create clawbot dashboard repository",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Set up automated dashboard updates",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Repository Management",
+      "description": "Create and manage various GitHub repositories",
+      "status": "in-progress",
+      "completedAt": null,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Create openclaw repo",
+          "status": "completed"
+        },
+        {
+          "id": 2,
+          "title": "Create cocast repo",
+          "status": "completed"
+        },
+        {
+          "id": 3,
+          "title": "Create cowboy repo",
+          "status": "completed"
+        },
+        {
+          "id": 4,
+          "title": "Create clawbot repo",
+          "status": "completed"
+        },
+        {
+          "id": 5,
+          "title": "Set up README and documentation",
+          "status": "in-progress"
+        }
+      ]
+    }
+  ]
+}
